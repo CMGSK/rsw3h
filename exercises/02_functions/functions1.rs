@@ -1,3 +1,7 @@
+/*
+How we define rust functions? 
+*/
+
 // TODO: Add some function with the name `call_me` without arguments or a return value.
 
 fn main() {

@@ -1,20 +1,17 @@
-// This is a quiz for the following sections:
-// - Variables
-// - Functions
-// - If
-//
+/*
+Lets do a quick exercise to introduce if statements and maybe some useful things.
+*/
+
+// EXERCISE:
 // Mary is buying apples. The price of an apple is calculated as follows:
-// - An apple costs 2 rustbucks.
+// - An apple costs 2 bucks.
 // - However, if Mary buys more than 40 apples, the price of each apple in the
-// entire order is reduced to only 1 rustbuck!
+// entire order is reduced to only 1 buck!
 
-// TODO: Write a function that calculates the price of an order of apples given
-// the quantity bought.
-// fn calculate_price_of_apples(???) -> ??? { ??? }
+// TODO: Write a function called `calculate_price_of_apples` that calculates the price
+// of an order of apples given the quantity bought.
 
-fn main() {
-    // You can optionally experiment here.
-}
+fn main() {}
 
 // Don't change the tests!
 #[cfg(test)]
