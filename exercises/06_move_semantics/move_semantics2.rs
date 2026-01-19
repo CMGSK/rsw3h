@@ -1,3 +1,14 @@
+/*
+A very important concept in Rust, that will also help us understand other languages
+in their lowest level behaviour, it the `move` semantics, so lets take a closer look
+at this important feature.
+
+Moving in rust imply that we will transfer ownership of a value from one variable to
+a different one, i.e. if you move a value, the original variable that held it will no
+longer have access to it, only the new one does.
+*/
+
+// Don't change this function
 fn fill_vec(vec: Vec<i32>) -> Vec<i32> {
     let mut vec = vec;
 
@@ -6,9 +17,7 @@ fn fill_vec(vec: Vec<i32>) -> Vec<i32> {
     vec
 }
 
-fn main() {
-    // You can optionally experiment here.
-}
+fn main() {}
 
 #[cfg(test)]
 mod tests {
