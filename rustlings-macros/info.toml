@@ -5,6 +5,12 @@ Is this your first time? Don't worry, Rustlings is made for beginners!
 We are going to teach you a lot of things about Rust, but before we can
 get started, here are some notes about how Rustlings operates:
 
+0. Hey! Carlos here. I've curated this amazing tool to contain just what I
+   consider the most fundamental things we should take a look at in our 3 hour
+   sessions. Please mind that some hints may be wrong, and some exercises completely
+   differ from the original ones. I've adapted it to my liking to be able to 
+   explain cool things to you, so I'd appreciate if you avoid using the hints
+   and instead ask me any questions you may have. I hope you enjoy it.
 1. The central concept behind Rustlings is that you solve exercises. These
    exercises usually contain some compiler or logic errors which cause the
    exercise to fail compilation or testing. It's your job to find all errors
@@ -16,8 +22,12 @@ get started, here are some notes about how Rustlings operates:
    errors are fixed, Rustlings will ask you to move on to the next exercise.
 3. If you're stuck on an exercise, enter `h` to show a hint.
 4. If an exercise doesn't make sense to you, feel free to open an issue on
-   GitHub! (https://github.com/rust-lang/rustlings). We look at every issue, and
-   sometimes, other learners do too so you can help each other out!"""
+   GitHub! (https://github.com/rust-lang/rustlings) (Carlos: Please don't. 
+   These are all edited. I just leave this here so you can go and check out
+   the full rustlings repository, where you will learn a lot more). 
+   We look at every issue, and sometimes, other learners do too so you 
+   can help each other out!
+   """
 
 final_message = """
 We hope you enjoyed learning about the various aspects of Rust!
