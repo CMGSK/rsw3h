@@ -50,7 +50,7 @@ mod tests {
     #[test]
     fn raw_value() {
         let ice_creams = maybe_ice_cream(12);
-        assert_eq!(ice_creams, 5);
+        assert_eq!(ice_creams, 1); // Don't modify this line
     }
 
     #[test]

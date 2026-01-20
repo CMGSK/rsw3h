@@ -43,7 +43,7 @@ impl Package {
     // is considered international.
     fn is_international(&self) {}
 
-    // TODO: Calculate the package's fees (grams * cents_per_gram)
+    // TODO: Calculate the package's fees (weight_in_grams * cents_per_gram)
     fn get_fees(&self, cents_per_gram: u32) {}
 }
 

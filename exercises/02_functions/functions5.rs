@@ -1,5 +1,5 @@
 /*
-Let me introduce you to some rust nitpicks
+Let me introduce you a curious rust nitpick here.
 */
 
 // TODO: Fix the function body without changing the signature.
