@@ -1,3 +1,7 @@
+/*
+
+*/
+
 trait SomeTrait {
     fn some_function(&self) -> bool {
         true
@@ -23,8 +27,14 @@ fn some_func(item: ???) -> bool {
     item.some_function() && item.other_function()
 }
 
+// TODO: Fix the compiler error by only changing the signature of this function
+// keeping item the same type as previously
+fn other_func(item: ???) {
+    item
+}
+
 fn main() {
-    // You can optionally experiment here.
+    _ = other_func();
 }
 
 #[cfg(test)]
